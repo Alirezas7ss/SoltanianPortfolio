@@ -21,7 +21,8 @@ export default function Cv() {
             see it on my portfolio website ,
             everything with the details like my skills 
               and projects and communication channels in
-            the portfolio .<br/><br></br><br></br><span>EXPERIENCES :</span><br/><br></br><br></br><span>EDUCATION  : </span>
+            the portfolio .
+            {/* <br/><br></br><br></br><span>EXPERIENCES :</span><br/><br></br><br></br><span>EDUCATION  : </span> */}
         </p>
         </div>
         <div className='line'>
@@ -55,7 +56,7 @@ export default function Cv() {
            which is the main  place to share
            my portfolio .But I share them in other places as well, like 
            Github and dribbble<br></br>
-           page :<br/>
+           <br/>
                 PortfolioPage :<br/>
                 Github : https://github.com/Alirezas7ss <br/>
                 Dribbble : https://dribbble.com/Soltanian76 <br/><br></br>
