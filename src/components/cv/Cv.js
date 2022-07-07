@@ -56,8 +56,8 @@ export default function Cv() {
            which is the main  place to share
            my portfolio .But I share them in other places as well, like 
            Github and dribbble<br></br>
-           <br/>
-                PortfolioPage :<br/>
+           
+                PortfolioPage : https://soltanianportfolio.vercel.app/home<br/>
                 Github : https://github.com/Alirezas7ss <br/>
                 Dribbble : https://dribbble.com/Soltanian76 <br/><br></br>
           
