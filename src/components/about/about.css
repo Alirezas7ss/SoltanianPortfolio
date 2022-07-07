@@ -63,6 +63,10 @@ about__card small{
   font-size: 0.7rem;
   color: var(--color-light);
 }
+
+p{
+  padding: 20px 0 0 0;
+}
 /* ========== MEDIA QUERIES (MEDIA DEVICES) ========== */
 
 @media screen and (max-width: 1024px) {

@@ -1,28 +1,16 @@
-import React, { Component } from 'react'
-import About from './components/about/About'
-import Contact from './components/contact/Contact'
-import Experience from './components/experience/Experience'
-import Footer from './components/footer/Footer'
-import Header from './components/header/Header'
-import Nav from './components/nav/Nav'
-import Portfolio from './components/portfolio/Portfolio'
-import Services from './components/services/Services'
-import Testimonials from './components/testimonials/Testimonials'
-export default class App extends Component {
-  render() {
-    return (
-         <>
-           <Header />
-           <Nav />
-           <About />
-           <Experience />
-           <Services />
-           <Portfolio />
-           <Testimonials />
-           <Contact />
-           <Footer />
 
-         </>
-      )
-  }
+import React from 'react'
+import Home from './components/home/Home'
+import { Route,Routes , Navigate } from 'react-router-dom'
+import Cv from './components/cv/Cv'
+export default function App() {
+  return (
+    <>
+     <Routes>
+      <Route path='/home' element={<Home/>} />
+      <Route path='/cv' element={<Cv/>} />
+      <Route path='/' element={<Navigate to='/home' />} />
+     </Routes>
+    </>
+  )
 }

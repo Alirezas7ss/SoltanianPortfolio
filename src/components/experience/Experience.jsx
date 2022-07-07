@@ -7,13 +7,13 @@ const Experience = () => {
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
        <div className="container experience__container">
-         <div className="experience__frontend">
+         <div data-aos-duration="1000" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" className="experience__frontend">
            <h3>Frontend Developer</h3>
-           <div className="experience__content">
+           <div  className="experience__content">
              <artifact className="experience__details">
                  <BsPatchCheckFill className='experience__details__icon' />
                  <div>
-                  <h4>HTML</h4>
+                  <h4>REACT</h4>
                   <small className='text-light'>Experienced</small> 
                  </div>
              </artifact>
@@ -27,7 +27,7 @@ const Experience = () => {
              <artifact className="experience__details">
                  <BsPatchCheckFill className='experience__details__icon' />
                  <div>
-                  <h4>REACT</h4>
+                  <h4>HTML</h4>
                   <small className='text-light'>Experienced</small> 
                  </div>
              </artifact>
@@ -47,9 +47,9 @@ const Experience = () => {
              </artifact>
            </div>
          </div>
-         <div className="experience__backend">
+         <div data-aos-duration="1000"  data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" className="experience__backend">
            <h3>Backend Developer</h3>
-           <div className="experience__content">
+           <div  className="experience__content">
              <artifact className="experience__details">
                  <BsPatchCheckFill className='experience__details__icon' />
                  <div>
